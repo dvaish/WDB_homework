@@ -1,0 +1,86 @@
+* {
+    font-family: "Helvetica Neue";
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: #0b0605;
+}
+
+h1 {
+    font-size: 70px;
+    width: 50%;
+    margin: auto;
+    padding:20px;
+    background: radial-gradient(circle at 64% 56%, #ffec83, 20%, #ff5918, 35%, #d12929, 55%, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 50px;
+    background: linear-gradient(to right, #ffec83, 20%, #ff5918, 35%, #d12929, 55%, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#nasalink {
+    color: #ff5918;
+}
+
+#nasalink:hover {
+    color: #ffec83;
+}
+
+#nasalink:visited {
+    color: #d12929;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card li {
+    text-align: left;
+    float: left;
+    padding: 5px;
+}
+
+.italic {
+    font-style: italic;
+    color: #ffec83;
+}
+
+.bold {
+    font-weight: bold;
+    color: #ff5918;
+}
+
+
+#homework {
+    font-size: 25px;
+    -webkit-text-fill-color: white;
+}
+
+#Nasa {
+    width:100px;
+    height:30px;
+}
+
+#facts {
+    padding: 10px;
+    margin: 20px;
+}
+
+#signoff {
+    display: block;
+    font-size: 40px;
+    position: relative;
+    padding: 0px;
+    margin: auto;
+}
