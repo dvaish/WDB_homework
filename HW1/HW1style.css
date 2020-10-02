@@ -12,7 +12,7 @@ h1 {
     font-size: 70px;
     width: 50%;
     margin: auto;
-    padding:10px;
+    padding:20px;
     background: radial-gradient(circle at 64% 56%, #ffec83, 20%, #ff5918, 35%, #d12929, 55%, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -29,6 +29,10 @@ h3 {
     font-size: 30px;
 }
 
+ul {
+    height: 175px;
+}
+
 #nasalink {
     color: #ff5918;
 }
@@ -39,6 +43,10 @@ h3 {
 
 #nasalink:visited {
     color: #d12929;
+}
+
+.card {
+    margin: auto;
 }
 
 .card p {
@@ -78,9 +86,5 @@ h3 {
 }
 
 #signoff {
-    display: block;
     font-size: 40px;
-    position: relative;
-    padding: 0px;
-    margin: auto;
 }
