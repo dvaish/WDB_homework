@@ -10,6 +10,7 @@ body {
 h1 {
     font-size: 70px;
     background: radial-gradient(circle at 64% 56%, #ffec83, 20%, #ff5918, 35%, #d12929, 55%, #000000);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -17,6 +18,7 @@ h1 {
 h2 {
     font-size: 50px;
     background: linear-gradient(to right, #ffec83, 20%, #ff5918, 35%, #d12929, 55%, #000000);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -27,12 +29,20 @@ h3 {
 
 p, li {
     font-size: 20px;
+    padding: 10px;
 }
 
 .card {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+.card > * {
+    margin: 10px;
 }
 
 .italic {
