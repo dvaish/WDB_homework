@@ -38,6 +38,10 @@ ol > li {
     width: 20%;
 }
 
+ol > li > ul {
+    padding-left: 0px;
+}
+
 p, a {
     font-size: 20px;
     padding: 0px;
@@ -117,4 +121,9 @@ button {
 #Nasa {
     width:100px;
     height:30px;
+}
+
+#howmany {
+    background-color: black;
+
 }
