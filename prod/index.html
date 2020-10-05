@@ -1,35 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css"></style>
-        <title>Blackholes</title>
+        <link rel="stylesheet" href="style.css"></style> <!-- Link to the style sheet -->
+        <title>Blackholes</title> <!-- Website title (displayed in the tab in browser -->
     </head>
     <body>
         <div class="menu">
             <h1>Blackholes</h1>
-            <p>Introduction</p>
-            <p>The Picture</p>
-            <p>Process</p>
-            <p>Physics</p>
-            <p>Possibilities</p>
+            <a href="#introduction">Introduction</a>
+            <a href="#first_image">The Picture</a>
+            <a href="#endeavor">The Endeavor</a>
+            <a href="#eht">The EHT</a>
+            <a href="#awards">Awards</a>
         </div>
-        <div class="card">
+        <div class="card" id="introduction">
             <h3>Introduction to Space's Greatest Mystery:</h3>
             <h1>Blackholes</h1>
-            <h3>Sponsored by <a id="nasalink" href="https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history"><img id="Nasa" src="nasa.png" alt="Nasa" /></a></h3>
+            <h3>Sponsored by <a id="nasalink" href="https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history"><img id="Nasa" src="images/nasa.png" alt="Nasa" /></a></h3>
         </div>
-        <div class="card">
+        <div class="card" id="first_image">
             <h2>The First Image of a Black Hole</h2>
-            <img id="Blackhole" src="blackhole.png" alt="literally a black hole"/>
+            <img id="Blackhole" src="images/blackhole.png" alt="literally a black hole"/>
             <p>Taken on April 10, 2019; found here: <a id="nasalink" href="https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history">NASA Website</a></p>
         </div>
-        <div class="card">
+        <div class="card" id="endeavor">
             <h2>The Scientific Endeavor</h2>
             <p>A black hole is an extremely dense object from which <span class="italic">no light can escape</span>. Anything that comes within a black hole’s “event horizon,” its point of no return, will be consumed, never to re-emerge, because of the black hole’s unimaginably strong gravity. By its very nature, <span class="italic">a black hole cannot be seen</span>, but the hot disk of material that encircles it shines bright. Against a bright backdrop, such as this disk, a black hole appears to cast a shadow.</p>  
             <p>The stunning new image shows the shadow of the supermassive black hole in the center of Messier 87 (M87), an elliptical galaxy some <span class="bold">55 million light-years from Earth</span>. This black hole is <span class="bold">6.5 billion times the mass of the Sun</span>. Catching its shadow involved eight ground-based radio telescopes around the globe, operating together as if they were <span class=italic>one telescope the size of our entire planet.</span></p> 
         </div>
+        <!-- <div class="card">
+            <h2>Understanding Size</h2>
+            <p>Here, you can enter your weight and see how many yous make up a black hole</p>
+            <script src="script.js"></script>
+        </div> -->
+        <div class="card" id="eht">
+            <h2>The Event Horizon Telescope</h2>
+            <p>The Event Horizon Telescope (EHT) is an array of several telescopes around the world, that can, together, collect the detaild data necssary to recontruct the image of a black hole. Here listed by contributing country:</p>
+            <ol>
+                <li><p>USA</p>
+                    <ul>
+                        <li>JCMT</li>
+                        <li>CARMA</li>
+                        <li>SMT</li>
+                        <li>12-Meter ALMA Prototype</li>
+                    </ul>
+                </li>
+                <li><p>Chile</p>
+                    <ul>
+                        <li>APEX</li>
+                        <li>ASTE</li>
+                        <li>ALMA</li>
+                    </ul>
+                </li>
+                <li><p>Mexico</p>
+                    <ul>
+                        <li>LMT</li>
+                    </ul>
+                </li>
+                <li><p>France</p>
+                    <ul>
+                        <li>NOEMA</li>
+                    </ul>
+                </li>
+                <li><p>Spain</p>
+                    <ul>
+                        <li>IRAM 30-meter Telescope</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="card" id="awards">
+            <h2>Awards</h2>
+            <p>The EHT project has received the following awards, listed most-to-least recent:</p>
+            <table>
+                <tr>
+                    <th>Award</th>
+                    <th>Institution</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Nelson P. Jackson Aerospace Award</td>
+                    <td>National Space Club and Foundation</td>
+                    <td>12 March 2020</td>
+                </tr>
+                <tr>
+                    <td>AAS Bruno Rossi Prize</td>
+                    <td>American Astronomical Society</td>
+                    <td>28 January 2020</td>
+                </tr>
+                <tr>
+                    <td>Einstein Medal</td>
+                    <td>Albert Einstein Society</td>
+                    <td>27 December 2019</td>
+                </tr>
+                <tr>
+                    <td>Smithsonian American Ingenuity Award</td>
+                    <td>Smithsonian Institution</td>
+                    <td>19 November 2019</td>
+                </tr>
+                <tr>
+                    <td>2020 Breakthrough Prize in Fundamental Physics</td>
+                    <td>Breakthrough Foundation</td>
+                    <td>3 November 2019</td>
+                </tr>
+                <tr>
+                    <td>NSF Diamond Achievment Award</td>
+                    <td>National Science Foundation</td>
+                    <td>9 May 2019</td>
+                </tr>
+            </table>
+        </div>
         <div class="card">
             <h1>Built by: Dhruv Vaish</h1>
+            <a id="button" href="https://github.com/dvaish/WDB_homework"><button>View the source code</button></a>
         </div>
     </body>
 </html>
