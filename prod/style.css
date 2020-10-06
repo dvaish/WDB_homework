@@ -54,14 +54,20 @@ table, th, td {
     padding: 10px;
 }
 
-button {
-    padding: 20px;
-    font-size: 25px;
+button, .button {
+    padding: 10px;
+    font-size: 20px;
     background-image: url("images/blackhole.png");
     border: #ffffff;
     border-style: solid;
     border-width: 2px;
     color: #ffffff; 
+}
+
+button:hover, .button:hover {
+    color: black;
+    background-image: none;
+    background-color: white;
 }
 
 .menu {
@@ -123,7 +129,8 @@ button {
     height:30px;
 }
 
-#howmany {
+.numberbox {
     background-color: black;
-
+    border-color: white;
+    width: 40px;
 }
