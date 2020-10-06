@@ -112,6 +112,12 @@ button:hover, .button:hover {
     color: #ff5918;
 }
 
+.numberbox {
+    background-color: black;
+    border-color: white;
+    width: 40px;
+}
+
 #nasalink {
     color: #ff5918;
 }
@@ -127,10 +133,4 @@ button:hover, .button:hover {
 #Nasa {
     width:100px;
     height:30px;
-}
-
-.numberbox {
-    background-color: black;
-    border-color: white;
-    width: 40px;
 }

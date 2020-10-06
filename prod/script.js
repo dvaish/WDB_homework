@@ -3,14 +3,16 @@
 const blackholesize = 152
 
 function blackHoles() {
-    let feet = Number(document.getElementById('howmanyfeet').value)
-    let inches = Number(document.getElementById('howmanyinches').value)
-    let output = document.getElementById('output')
-    
+    let howmanyfeet = document.getElementById('howmanyfeet').value
+    let howmanyinches = document.getElementById('howmanyinches').value
+
+    let feet = Number(howmanyfeet)
+    let inches = Number(howmanyinches)
+
     let total = (feet * 12) + (inches)
     let answer = blackholesize / total
 
-    output.innerHTML = answer.toFixed(2)
+    document.getElementById('output').innerHTML = answer.toFixed(2) + ' &sdot; 10<sup>13</sup>'
     alert( output.innerHTML );
-    feet, inches = null;
+    howmanyfeet, howmanyinches = null;
 }
