@@ -2,7 +2,7 @@
     font-size: 20px;
     font-family: 'Times New Roman';
     font-weight: normal;
-    margin: 0px;
+    margin: 0;
 }
 
 body {
@@ -12,11 +12,12 @@ body {
 
 h1 {
     width: 100%;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     font-style: italic;
     font-family: 'Snell Roundhand';
     margin-top: 20px;
+    padding-bottom: 0.5em;
 }
 
 h2 {
@@ -36,6 +37,10 @@ div, ul {
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-around;
+}
+
+div > * {
+    padding-bottom: 10px;
 }
 
 img {
@@ -60,6 +65,9 @@ img {
 
 li {
     flex-grow: 1 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .card3 > li > a {
@@ -69,8 +77,6 @@ li {
     text-decoration: none;
     color: #666;
     padding-left: 30px;
-    display: block;
-    object-fit: inherit;
 }
 
 #politics {
